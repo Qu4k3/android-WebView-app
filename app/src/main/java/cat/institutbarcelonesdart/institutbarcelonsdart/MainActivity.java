@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         WebSettings mySetting = myWeb.getSettings();
         mySetting.setJavaScriptEnabled(true);
 
-        myWeb.loadUrl("http://qu4k3.com");
+        myWeb.loadUrl("http://institutbarcelonesdart.cat");
 
         myWeb.setWebViewClient(new WebViewClient());
     }
