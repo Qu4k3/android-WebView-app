@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cat.institutbarcelonesdart.institutbarcelonsdart.MainActivity">
+    tools:context="institutbarcelonesdart.institutbarcelonesdart.institutbarcelonsdart.cat.MainActivity">
 
     <WebView
         android:id="@+id/myViewId"

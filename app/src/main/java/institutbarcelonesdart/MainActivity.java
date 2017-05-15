@@ -1,4 +1,4 @@
-package cat.institutbarcelonesdart.institutbarcelonsdart;
+package institutbarcelonesdart;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.Window;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import institutbarcelonesdart.R;
 
 public class MainActivity extends Activity {
 
@@ -25,7 +27,7 @@ public class MainActivity extends Activity {
         WebSettings mySetting = myWeb.getSettings();
         mySetting.setJavaScriptEnabled(true);
 
-        myWeb.loadUrl("http://institutbarcelonesdart.cat");
+        myWeb.loadUrl("http://www.institutbarcelonesdart.cat");
 
         myWeb.setWebViewClient(new WebViewClient());
     }

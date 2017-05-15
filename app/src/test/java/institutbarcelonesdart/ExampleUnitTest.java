@@ -1,4 +1,4 @@
-package cat.institutbarcelonesdart.institutbarcelonsdart;
+package institutbarcelonesdart;
 
 import org.junit.Test;
 
